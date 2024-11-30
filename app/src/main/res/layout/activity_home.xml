@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to the Home Screen!"
-        android:textSize="24sp"
-        android:layout_gravity="center"/>
+        android:layout_height="91dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/welcome_to_better_you"
+        android:textSize="35sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/pushbutton"
+        app:srcCompat="@drawable/push" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/pullbutton"
+        app:srcCompat="@drawable/pull" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/legsbutton"
+        app:srcCompat="@drawable/legs" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="#93a8f8"
+        android:fontFamily="@font/abril_fatface"
+        android:text="   Select A Workout Type"
+        android:textSize="36sp" />
+
 </LinearLayout>

@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import edu.utsa.cs3443.betteryou.R;
+
 
 public class SplashActivity extends AppCompatActivity {
 

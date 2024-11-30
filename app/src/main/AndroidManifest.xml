@@ -35,6 +35,13 @@
         <activity
             android:name="edu.utsa.cs3443.betteryou.HomeActivity"
             android:exported="false" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <activity android:name=".PushActivity"/>
+        <activity android:name=".PullActivity"/>
+        <activity android:name=".LegsActivity"/>
+
 
     </application>
 
