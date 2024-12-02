@@ -18,7 +18,7 @@
 
         <!-- SplashActivity as the launcher activity -->
         <activity
-            android:name="edu.utsa.cs3443.betteryou.SplashActivity"
+            android:name="edu.utsa.cs3443.betteryou.controller.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,21 +28,43 @@
 
         <!-- MainActivity - The main screen after Splash -->
         <activity
-            android:name="edu.utsa.cs3443.betteryou.MainActivity"
+            android:name="edu.utsa.cs3443.betteryou.controller.MainActivity"
             android:exported="true" />
 
         <!-- HomeActivity - Redirected after successful login -->
         <activity
-            android:name="edu.utsa.cs3443.betteryou.HomeActivity"
+            android:name="edu.utsa.cs3443.betteryou.controller.HomeActivity"
             android:exported="false" />
+
+        <!-- PushActivity -->
+        <activity
+            android:name="edu.utsa.cs3443.betteryou.controller.PushActivity"
+            android:exported="false" />
+
+        <!-- PullActivity -->
+        <activity
+            android:name="edu.utsa.cs3443.betteryou.controller.PullActivity"
+            android:exported="false" />
+
+        <!-- LegsActivity -->
+        <activity
+            android:name="edu.utsa.cs3443.betteryou.controller.LegsActivity"
+            android:exported="false" />
+
+        <!-- VideoPlayerActivity -->
+        <activity
+            android:name="edu.utsa.cs3443.betteryou.controller.VideoPlayerActivity"
+            android:exported="false" />
+
+        <!-- ExerciseDetailActivity -->
+        <activity
+            android:name="edu.utsa.cs3443.betteryou.controller.ExerciseDetailActivity"
+            android:exported="false" />
+
+        <!-- Metadata for preloaded fonts -->
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-        <activity android:name=".PushActivity"/>
-        <activity android:name=".PullActivity"/>
-        <activity android:name=".LegsActivity"/>
-
-
     </application>
 
 </manifest>

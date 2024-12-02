@@ -46,6 +46,7 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.recyclerview)
 
     // Unit Testing dependencies
     testImplementation("junit:junit:4.13.2")
