@@ -28,10 +28,10 @@
 
         <!-- MainActivity - The main screen after Splash -->
         <activity
-            android:name="edu.utsa.cs3443.betteryou.controller.MainActivity"
-            android:exported="true" />
+            android:name="edu.utsa.cs3443.betteryou.MainActivity"
+        android:exported="true" />
 
-        <!-- HomeActivity - Redirected after successful login -->
+        <!-- HomeActivity -->
         <activity
             android:name="edu.utsa.cs3443.betteryou.controller.HomeActivity"
             android:exported="false" />

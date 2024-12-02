@@ -1,4 +1,4 @@
-package edu.utsa.cs3443.betteryou.controller; // Updated package name to reflect new location
+package edu.utsa.cs3443.betteryou;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
@@ -8,7 +8,6 @@ import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
 
-import edu.utsa.cs3443.betteryou.R;
 import edu.utsa.cs3443.betteryou.view.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {

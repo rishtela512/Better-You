@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import edu.utsa.cs3443.betteryou.R;
+import edu.utsa.cs3443.betteryou.MainActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
