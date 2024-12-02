@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SignupTabFragment">
+    tools:context="controller.SignupTabFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
-                android:src="@drawable/signimg"/>
+                android:src="@drawable/signuplogo"/>
 
             <EditText
                 android:layout_width="300dp"
